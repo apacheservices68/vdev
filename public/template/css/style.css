@@ -1,0 +1,21 @@
+body {
+    font-family: 'Lato';
+}
+.fa-btn {
+    margin-right: 6px;
+}
+.blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+.page-header {
+    padding-bottom: 9.5px;
+    margin-top:0;
+    margin-bottom:0;
+    border-bottom: 1px solid transparent;
+}
+#adftop {margin:auto;text-align: right !important;}
+.navbar-right{margin-right:-30px;}

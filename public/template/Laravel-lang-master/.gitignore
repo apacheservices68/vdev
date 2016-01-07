@@ -1,0 +1,4 @@
+_site
+/vendor/
+.DS_Store
+.php_cs.cache
