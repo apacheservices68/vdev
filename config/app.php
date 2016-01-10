@@ -163,7 +163,9 @@ return [
         Collective\Html\HtmlServiceProvider::class, 
         Orchestra\Parser\XmlServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
-        Intervention\Image\ImageServiceProvider::class
+        Intervention\Image\ImageServiceProvider::class,
+        Yajra\Datatables\DatatablesServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,        
         /*Yajra\Datatables\DatatablesServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,        
               */  
@@ -218,7 +220,9 @@ return [
         'Html'      => Collective\Html\HtmlFacade::class,
         'XmlParser' => Orchestra\Parser\Xml\Facade::class,
         'Flash'     => Laracasts\Flash\Flash::class,
-        'Image'     => Intervention\Image\Facades\Image::class
+        'Image'     => Intervention\Image\Facades\Image::class,
+        'Datatables'    => Yajra\Datatables\Datatables::class,
+        'Debugbar'      => Barryvdh\Debugbar\Facade::class,
         /*'Datatables'    => Yajra\Datatables\Datatables::class,
         'Debugbar'      => Barryvdh\Debugbar\Facade::class,
          */   
